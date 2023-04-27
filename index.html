@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste prático</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 class="digitar-efeito">Marcos Túlio.</h1>
+    </header>
+
+    <main>
+        <section class="container">
+            <form action="http://www.marcostulio.in/POST.php" method="post" id="form" enctype="multipart/form-data">
+        
+              <div class="campo">
+                <input type="text" id="nome" name="nome" autocomplete="off">
+                <span class="label">Seu Nome</span>
+              </div>
+              <div class="erro"><span class="span" dir="auto"></span></div>
+        
+              <div class="campo">
+                <input type="text" name="email" id="email" autocomplete="off">
+                <span class="label">nome@exemplo.com</span>
+              </div>
+              <div class="erro"><span class="span"></span></div>
+        
+        
+              <div class="campo">
+                <textarea name="msg" id="msg" autocomplete="off"></textarea>
+                <span class="label" id="msg_lb">Mensagem</span>
+              </div>
+              <div class="erro"><span class="span"></span></div>
+
+              <div class="campo">
+                <input type="file" name="arquivo" id="arquivo" autocomplete="off">
+              </div>             
+        
+              <div class=" submit">
+                <input type="submit" value="Enviar">
+              </div>
+        
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer_content">
+          <div class="footer_center">
+            <p><strong>Entre em contato</strong></p><br><br>
+            <p>(31) 99999-9999</p><br>
+            <p>(31) 98888-8888</p><br>
+            <p>Avenida Assis Chateaubriand, 1250 - Floresta</p><br>
+            <p>contato@email.com</p>
+
+          <div class="footer_center" style="margin-top: 20px;">
+            <p><strong>© 2023 T.I Inc. Todos os direitos reservados. Computer Brasil Ltda. CNPJ: 00.111.222/0001-44</strong></p><span>Brasil</span>
+          </div>         
+
+        </div>
+    </footer>
+</body>
+</html>
