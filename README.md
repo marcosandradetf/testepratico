@@ -2,7 +2,7 @@
 
 ## Instalar o Git
 
-- Antes de clonar o repositório é preciso instalar o git.
+Antes de clonar o repositório é preciso instalar o git.
 
 1. Instalando no Linux
 
