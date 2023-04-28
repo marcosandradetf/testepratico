@@ -51,3 +51,5 @@ $ sudo apt-get install git-all
 
 ## Rodar o código
 - Utilize o explorador de arquivos para ir até a pasta que recebeu o clone do projeto, dentro da pasta estará todos os arquivos. Abra o arquivo "index.html".
+
+- Obs: Não há necessidade de utilizar um **localhost** para tratar os dados pelo arquivo PHP. Pois os dados estão sendo enviados para um servidor online. Os dados estão públicos em www.marcostulio.in/uploads e o código fonte do arquivo PHP também.
